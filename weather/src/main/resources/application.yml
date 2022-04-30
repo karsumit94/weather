@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: DEBUG
+openweather-api-key: d2929e9483efc82c82c32ee7e02d563e
+openweather-base-url: https://api.openweathermap.org
+no-of-days: 3
+
+suggestion-rule: "[{\"field\":\"temp\", \"condition\":\">\", \"value\":40.0, \"suggestion\":\"Use sunscreen lotion\"}, {\"field\":\"rain\", \"condition\":\"==\", \"value\": \"true\", \"suggestion\":\"Carry umbrella\"}, {\"field\":\"wind\", \"condition\":\">\", \"value\": 10, \"suggestion\":\"It's too windy, watch out!\"}, {\"field\":\"thunderstorm\", \"condition\":\"==\", \"value\": \"true\", \"suggestion\":\"Don't step out! A Storm is brewing!\"}]"
+
